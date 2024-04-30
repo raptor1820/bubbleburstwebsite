@@ -4,7 +4,10 @@
 	let data = [];
 
 	async function handleClick() {
-		await fetch('https://apibubbleburst.coolify.ritwic.com/?url=' + url).then(async (res) => {
+		if (!url.startsWith('https://') && !url.startsWith('http://')) {
+			url = 'https://' + url;
+		}
+		await fetch('https://apibubbleburst.ritwic.com/?url=' + url).then(async (res) => {
 			let x = await res.json();
 			console.log(x);
 			data = [];
