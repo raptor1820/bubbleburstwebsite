@@ -1,4 +1,6 @@
 <script>
+	import { inject } from '@vercel/analytics';
+	inject();
 	import Card from './Card.svelte';
 	let url = '';
 	let data = [];
