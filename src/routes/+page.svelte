@@ -2,6 +2,7 @@
 	import { inject } from '@vercel/analytics';
 	inject();
 	import Card from './Card.svelte';
+	import { tick } from 'svelte';
 	let url = '';
 	let data = [];
 
@@ -21,6 +22,9 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Bubble Burst!</title>
+</svelte:head>
 <svelte:window on:keydown={(e) => e.key === 'Enter' && handleClick()} />
 <div class="main-cont">
 	<h1 class="main-header">BUBBLE BURST!</h1>
