@@ -120,6 +120,8 @@ https://apibubbleburst.ritwic.com/?url=[ARTICLE_URL]
 
 The API analyzes the provided article and returns related content from different sources and perspectives.
 
+You can also run the API locally. Visit [this repo](https://github.com/raptor1820/bubblebackendjs)
+
 ## 🤝 Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**!
