@@ -1,4 +1,4 @@
-# 💥 BUBBLE BURST!
+# BUBBLE BURST!
 
 <div align="center">
 
